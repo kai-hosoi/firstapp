@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">first</string>
-    <string name="go_back">Go back</string>
-    <string name="text_return">return</string>
+    <string name="go_back">車両番号を確認のうえ、クルマの前で利用開始ボタンを押してください。</string>
+    <string name="text_return">利用開始(解錠)</string>
     <string name="ready_to_start">ready_to_start</string>
     <string name="start_task">start_task</string>
     <string name="title_activity_sub">SubActivity</string>
@@ -15,4 +15,5 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="toast_btn">toast</string>
     <string name="snack">snack</string>
+    <string name="notes">※位置情報の利用を許可してください。\n※iOS14以降をお使いの方は、正確な位置を有効にしてください。\n※操作が反映されるまで、数分かかる場合がございます。</string>
 </resources>
