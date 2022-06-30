@@ -16,4 +16,5 @@
     <string name="toast_btn">toast</string>
     <string name="snack">snack</string>
     <string name="notes">※位置情報の利用を許可してください。\n※iOS14以降をお使いの方は、正確な位置を有効にしてください。\n※操作が反映されるまで、数分かかる場合がございます。</string>
+    <string name="form_btn">form</string>
 </resources>

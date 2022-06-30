@@ -36,7 +36,11 @@ public class MainActivity extends AppCompatActivity {
         snackButton.setOnClickListener( v ->
                Snackbar.make(v, "メッセージ", Snackbar.LENGTH_SHORT).show());
 
-
+        Button formButton = findViewById(R.id.btn_form);
+        formButton.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplication(), ThirdActivity.class);
+            startActivity(intent);
+        });
     }
     }
 
