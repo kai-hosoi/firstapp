@@ -32,6 +32,19 @@
         app:layout_constraintVertical_bias="0.297" />
 
     <Button
+        android:id="@+id/btn_web"
+        android:layout_width="169dp"
+        android:layout_height="86dp"
+        android:onClick="webClick"
+        android:text="@string/web_btn"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <Button
         android:id="@+id/btn_form"
         android:layout_width="169dp"
         android:layout_height="86dp"
@@ -41,18 +54,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603" />
+        app:layout_constraintVertical_bias="0.773" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_toast"
         android:layout_width="169dp"
         android:layout_height="86dp"
+        android:onClick="displayToast"
         android:text="@string/toast_btn"
         android:textSize="20dp"
-        android:onClick="displayToast"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806" />
+        app:layout_constraintVertical_bias="0.906" />
 </androidx.constraintlayout.widget.ConstraintLayout>

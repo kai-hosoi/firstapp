@@ -33,6 +33,13 @@ public class ThirdActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+    public void webClick(View view){
+        Button webBtn = findViewById(R.id.btn_web);
+        webBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplication(), JumpActivity.class);
+            startActivity(intent);
+        });
+    }
     public void displayToast(View view) {
         Toast.makeText(getApplicationContext(), "aaaaaa",
                 Toast.LENGTH_SHORT).show();
